@@ -1,0 +1,19 @@
+.left-image {
+  width: 200px;
+
+  float: left;
+
+  margin-right: 15px;
+
+}
+
+.right-images {
+
+  width: 150px;
+  margin-right: 5px;
+}
+
+.prediction {
+
+  font-size: 26px;
+}
