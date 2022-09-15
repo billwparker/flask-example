@@ -48,6 +48,9 @@ def data():
 def actors():
     return render_template("analysis.html")
 
+# ---------------------------------------------------------
+# Machine Learning inputs
+
 @app.route("/model" , methods=["POST"])
 def model():
 
@@ -87,6 +90,10 @@ def model():
 
 # ---------------------------------------------------------
 # API
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# Datatable
 @app.route("/api/movies")
 def movie_grid():
 
@@ -104,6 +111,8 @@ def movie_grid():
 
     return jsonify(table_results)
 
+# -------------------------------------------------------------------------------
+# Charts
 @app.route("/api/years/<year>")
 def years(year):
 

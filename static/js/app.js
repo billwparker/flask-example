@@ -1,3 +1,5 @@
+
+// Data table
 d3.json("api/movies").then((data) => {
 
   console.log(data)
@@ -17,6 +19,7 @@ d3.json("api/movies").then((data) => {
 
 })
 
+// Charts
 function buildYearChart(year) {
 
   console.log(year);
